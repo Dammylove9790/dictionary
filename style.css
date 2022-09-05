@@ -1,0 +1,36 @@
+body {
+    background-color: darkred;
+}
+
+#header {
+    min-height: 25vh;
+}
+
+#dictionary {
+    font-family: 'Tangerine', serif;
+    color: rgb(212, 211, 211);
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 6px 7px 5px darkorange;
+
+}
+
+#search_input {
+    border: 5px solid orange;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+#search_input:focus {
+    outline: none ;
+    box-shadow: 0 8px 15px 0 orange;
+}
+
+.content_area {
+    min-height: 75vh;
+    border-radius: 20px;
+    opacity: ;
+}
+
