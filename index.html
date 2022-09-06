@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 
 <link rel="stylesheet" href="style.css">
@@ -15,24 +16,26 @@
   <title>Dictionary</title>
 </head>
 <body>
-  <div id="header" class="container-fluid bg-dark">
+  <div id="header" class="container-fluid py-3 bg-dark">
     <div class="row">
-      <div class="col-5">
+      <div class="col-md-5 m-0">
         <!-- <div class="row">
           <div class="col-8 py-3 border border-white">
             <img class="img-fluid" src="https://www.pngkit.com/png/full/135-1359480_try-our-interactive-dictionary-dictionary-png.png" alt="" width="250px">
           </div>
         </div> -->
-        <div id="dictionary" class="px-5">Word Mania</div>
+        <!-- <div id="dictionary1" class="px-5 py-0 m-0 text-center">UncleKay</div> -->
+        <div id="dictionary2" class="px-5 py-0 m-0 text-center">Dictionary</div>
       </div>
 
-      <div class="col-7 text-center">
-        <div class="col-md-8 form-group mt-3 mx-auto">
-          <label for="search">Word Lookup</label>
+      <div class="col-md-7 text-center">
+        <div class="col-md-8 col-sm-8 form-group mt-3 mx-auto">
+          <label for="search" class="text-white">Word Lookup</label>
           <input type="text" name="search" id="search_input" class="" placeholder="Search for any word or phrase...">
+          
         </div>
         <div class="col form-group mt-3 mx-auto">
-          <button id="search_word" class="btn btn-warning px-4" onclick="search_word()"> Search </button>
+          <button id="search_word" class="btn btn-warning px-4" onclick="search_word()"> Search <i class="fas fa-search text-white mx-2"></i> </button>
         </div>
       </div>
 

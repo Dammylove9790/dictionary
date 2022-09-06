@@ -6,7 +6,16 @@ body {
     min-height: 25vh;
 }
 
-#dictionary {
+#dictionary1 {
+    font-family: 'Tangerine', serif;
+    color: rgb(212, 211, 211);
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 6px 7px 5px darkred;
+
+}
+
+#dictionary2 {
     font-family: 'Tangerine', serif;
     color: rgb(212, 211, 211);
     font-size: 100px;
